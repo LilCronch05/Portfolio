@@ -70,7 +70,7 @@ section{
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: yellow;
+    background-color: rgb(194, 205, 90);
 }
 
 .sec4{
@@ -83,6 +83,19 @@ section{
     display: none;
     transform: translateY(0) scale(1);
     background-color: rgba(238, 228, 255, 0.3);
+}
+
+.active{
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+    @keyframes scaleAnime {
+        0%{
+            transform: translateY(-100%) scale(0)
+        }
+        100%{
+            transform: translateY(-100%) scale(0)
+        }
+    }
 }
 
 //Controls
