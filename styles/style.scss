@@ -64,36 +64,32 @@ section{
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: slateblue;
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(194, 205, 90);
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgba(204, 42, 42, 0.3);
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgba(238, 228, 255, 0.3);
 }
 
 .active{
     display: block;
     animation: scaleAnim 1s ease-in-out;
-    @keyframes scaleAnime {
+    @keyframes scaleAnim {
         0%{
-            transform: translateY(-100%) scale(0)
+            transform: translateY(-100%) scaleY(0)
         }
         100%{
-            transform: translateY(-100%) scale(0)
+            transform: translateY(0) scaleY(1)
         }
     }
 }
