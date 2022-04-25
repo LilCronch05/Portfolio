@@ -648,6 +648,24 @@ section{
         .submit-btn{
             display: flex;
             justify-content: flex-start;
+            //color: var(--color-secondary);
+            font-weight: 600;
+            border-radius: 30px;
+            position: relative;
+            align-self: flex-start;
+            overflow: hidden;
+            .btn-text{
+                padding: 0 2rem;
+                color: var(--color-secondary);
+            }
+            .btn-icon{
+                background-color: var(--color-secondary);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                padding: 1rem;
+            }
         }
     }
 }

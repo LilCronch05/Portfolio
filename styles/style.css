@@ -901,6 +901,32 @@ section {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  font-weight: 600;
+  border-radius: 30px;
+  position: relative;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  overflow: hidden;
+}
+
+.contact-content-con .right-contact .submit-btn .btn-text {
+  padding: 0 2rem;
+  color: var(--color-secondary);
+}
+
+.contact-content-con .right-contact .submit-btn .btn-icon {
+  background-color: var(--color-secondary);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  padding: 1rem;
 }
 
 /*Independent components*/
