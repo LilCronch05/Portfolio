@@ -481,6 +481,10 @@ section {
   width: 60%;
 }
 
+.about-stats .progress-bars .progress-bar .progress-con .progress .c_plus {
+  width: 20%;
+}
+
 .stat-title {
   text-transform: uppercase;
   font-size: 1.4rem;
