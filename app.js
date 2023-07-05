@@ -14,7 +14,7 @@ function PageTransitions(){
         })
     }
     
-    //Sectinons active class
+    //Sections active class
     allSections.addEventListener('click', (e) =>{
         const id = e.target.dataset.id;
         if(id){
@@ -40,6 +40,21 @@ function PageTransitions(){
         let element = document.body;
         element.classList.toggle('light-mode')
     })
+
+    //Toggle music mute
+    /*
+    const musicBtn = document.querySelector('.music-btn')
+    document.querySelector('.play-pause').addEventListener('click', function() {
+    if (musicBtn.paused) 
+    {
+        musicBtn.play();
+    } 
+    else 
+    {   
+        musicBtn.pause();
+    }
+    })
+    */
 }
 
 PageTransitions();
